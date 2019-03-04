@@ -5,20 +5,46 @@
 
     <meta charset="UTF-8">
     <title>Word guessing</title>
-    <link rel="stylesheet" href="assets/css/style.css"> <!--decide later, bootstrap vs. self-->
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!--decide later, bootstrap vs. self-->
 
 </head>
 
 
 <body>
-    <div>
-        <h1>Goth Themed Word Guess <del>Hangman</del> Game</h1>
+    <div class="header">
+        <header>
+            <h1>Goth Themed Word Guess <del>Hangman</del> Game</h1>
+        </header>
     </div>
     <!-- probably need some divs for css -->
         <!-- 1 for heading -->
         <!-- 1 for game -->
         <!-- 1 for win counter -->
+    <div class="game">
+        <div class="play">
+            <h2>Directions: Just start guessing!</h2>
+            
+            <h4><span id="answerWord"></span></h4>
 
+            <hr>
+            <h4>Wrong Letters</h4>
+            <h4><span id="wrongGuessedLetters"></span></h4>
+            <hr>
+
+        </div>
+
+        <div class="win">
+            
+            <h3>Wins</h3>
+            <h3><span id=winCounter></span></h3>
+
+        </div>
+    </div>
+    <br><br>
+    <!-- <div class="noose">
+        <img src="/assets/images/raven n' skull.jpg" alt="political cartoon; hanged man with an empty thought bubble">
+    </div> -->
         <script text="game.js" src="assets/javascript/game.js"> 
         
         </script>

@@ -1,0 +1,44 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+header {
+    width: 75%;
+    border: 2px solid whitesmoke;
+    height: 150px;
+    text-align: center;
+    margin: 3% auto;
+    padding: 2%;
+    background-image: url("../images/ocult-pattern.jpg");
+    color: darkred;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+.game {
+    width: 50%;
+    border: 2px dashed whitesmoke;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    font-size: 20px;
+}
+
+.win {
+    width: 30%;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    text-align: center;
+}
+
+.noose {
+    border: 1px solid white;
+    margin: auto;
+    
+}
